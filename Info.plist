@@ -39,5 +39,9 @@
 	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>This app needs your location to log roadkill observations.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>This app uses speech recognition to log roadkill species by voice.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This app uses the microphone to capture your voice while driving.</string>
 </dict>
 </plist>
