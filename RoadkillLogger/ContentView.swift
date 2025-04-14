@@ -10,6 +10,23 @@ import CoreLocation
 import Speech
 import MapKit
 
+class LocationManagerDelegate: NSObject, CLLocationManagerDelegate, ObservableObject {
+    @Published var currentLocation: CLLocation?
+
+    private let locationManager = CLLocationManager()
+
+    override init() {
+        super.init()
+        locationManager.delegate = self
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.startUpdatingLocation()
+    }
+
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        currentLocation = locations.last
+    }
+}
+
 struct Observation: Identifiable {
     let id = UUID()
     let date: Date
@@ -21,7 +38,7 @@ struct Observation: Identifiable {
 struct ContentView: View {
     @State private var observations: [Observation] = []
     @State private var recognizedText: String = ""
-    @State private var locationManager = CLLocationManager()
+    @StateObject private var locationDelegate = LocationManagerDelegate()
     @State private var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: 43.0, longitude: -76.0),
         span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5)
@@ -54,17 +71,13 @@ struct ContentView: View {
             }
             .frame(height: 250)
         }
-        .onAppear {
-            // Ask for location permission when app loads
-            locationManager.requestWhenInUseAuthorization()
-        }
+      
     }
 
     func logObservation() {
-        // Simulate voice recognition result
         let simulatedSpecies = "Porcupine"
-        // Get current location
-        if let location = locationManager.location {
+
+        if let location = locationDelegate.currentLocation {
             let newObservation = Observation(
                 date: Date(),
                 latitude: location.coordinate.latitude,
@@ -72,6 +85,17 @@ struct ContentView: View {
                 species: simulatedSpecies
             )
             observations.append(newObservation)
+            print("✅ Logged roadkill at lat: \(location.coordinate.latitude), lon: \(location.coordinate.longitude)")
+        } else {
+            // Fallback to a fixed location
+            let fallbackObservation = Observation(
+                date: Date(),
+                latitude: 43.0481,
+                longitude: -76.1474,
+                species: simulatedSpecies + " (Fallback)"
+            )
+            observations.append(fallbackObservation)
+            print("⚠️ Location unavailable — using fallback coordinates.")
         }
     }
 }
