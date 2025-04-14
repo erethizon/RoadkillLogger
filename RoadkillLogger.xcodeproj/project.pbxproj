@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AC3F3B012DACA789007D954D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC3F3AEA2DACA787007D954D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC3F3AF12DACA787007D954D;
+			remoteInfo = RoadkillLogger;
+		};
+		AC3F3B0B2DACA789007D954D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC3F3AEA2DACA787007D954D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC3F3AF12DACA787007D954D;
+			remoteInfo = RoadkillLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC3F3AF22DACA787007D954D /* RoadkillLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadkillLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3F3B002DACA789007D954D /* RoadkillLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadkillLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3F3B0A2DACA789007D954D /* RoadkillLoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadkillLoggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AC3F3AF42DACA787007D954D /* RoadkillLogger */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RoadkillLogger;
+			sourceTree = "<group>";
+		};
+		AC3F3B032DACA789007D954D /* RoadkillLoggerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RoadkillLoggerTests;
+			sourceTree = "<group>";
+		};
+		AC3F3B0D2DACA789007D954D /* RoadkillLoggerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RoadkillLoggerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC3F3AEF2DACA787007D954D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3F3AFD2DACA789007D954D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3F3B072DACA789007D954D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC3F3AE92DACA787007D954D = {
+			isa = PBXGroup;
+			children = (
+				AC3F3AF42DACA787007D954D /* RoadkillLogger */,
+				AC3F3B032DACA789007D954D /* RoadkillLoggerTests */,
+				AC3F3B0D2DACA789007D954D /* RoadkillLoggerUITests */,
+				AC3F3AF32DACA787007D954D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC3F3AF32DACA787007D954D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F3AF22DACA787007D954D /* RoadkillLogger.app */,
+				AC3F3B002DACA789007D954D /* RoadkillLoggerTests.xctest */,
+				AC3F3B0A2DACA789007D954D /* RoadkillLoggerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC3F3AF12DACA787007D954D /* RoadkillLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3F3B142DACA789007D954D /* Build configuration list for PBXNativeTarget "RoadkillLogger" */;
+			buildPhases = (
+				AC3F3AEE2DACA787007D954D /* Sources */,
+				AC3F3AEF2DACA787007D954D /* Frameworks */,
+				AC3F3AF02DACA787007D954D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AC3F3AF42DACA787007D954D /* RoadkillLogger */,
+			);
+			name = RoadkillLogger;
+			packageProductDependencies = (
+			);
+			productName = RoadkillLogger;
+			productReference = AC3F3AF22DACA787007D954D /* RoadkillLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC3F3AFF2DACA789007D954D /* RoadkillLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3F3B172DACA789007D954D /* Build configuration list for PBXNativeTarget "RoadkillLoggerTests" */;
+			buildPhases = (
+				AC3F3AFC2DACA789007D954D /* Sources */,
+				AC3F3AFD2DACA789007D954D /* Frameworks */,
+				AC3F3AFE2DACA789007D954D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC3F3B022DACA789007D954D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AC3F3B032DACA789007D954D /* RoadkillLoggerTests */,
+			);
+			name = RoadkillLoggerTests;
+			packageProductDependencies = (
+			);
+			productName = RoadkillLoggerTests;
+			productReference = AC3F3B002DACA789007D954D /* RoadkillLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC3F3B092DACA789007D954D /* RoadkillLoggerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3F3B1A2DACA789007D954D /* Build configuration list for PBXNativeTarget "RoadkillLoggerUITests" */;
+			buildPhases = (
+				AC3F3B062DACA789007D954D /* Sources */,
+				AC3F3B072DACA789007D954D /* Frameworks */,
+				AC3F3B082DACA789007D954D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC3F3B0C2DACA789007D954D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AC3F3B0D2DACA789007D954D /* RoadkillLoggerUITests */,
+			);
+			name = RoadkillLoggerUITests;
+			packageProductDependencies = (
+			);
+			productName = RoadkillLoggerUITests;
+			productReference = AC3F3B0A2DACA789007D954D /* RoadkillLoggerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC3F3AEA2DACA787007D954D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					AC3F3AF12DACA787007D954D = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					AC3F3AFF2DACA789007D954D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = AC3F3AF12DACA787007D954D;
+					};
+					AC3F3B092DACA789007D954D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = AC3F3AF12DACA787007D954D;
+					};
+				};
+			};
+			buildConfigurationList = AC3F3AED2DACA787007D954D /* Build configuration list for PBXProject "RoadkillLogger" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC3F3AE92DACA787007D954D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AC3F3AF32DACA787007D954D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC3F3AF12DACA787007D954D /* RoadkillLogger */,
+				AC3F3AFF2DACA789007D954D /* RoadkillLoggerTests */,
+				AC3F3B092DACA789007D954D /* RoadkillLoggerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC3F3AF02DACA787007D954D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3F3AFE2DACA789007D954D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3F3B082DACA789007D954D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC3F3AEE2DACA787007D954D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3F3AFC2DACA789007D954D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3F3B062DACA789007D954D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC3F3B022DACA789007D954D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC3F3AF12DACA787007D954D /* RoadkillLogger */;
+			targetProxy = AC3F3B012DACA789007D954D /* PBXContainerItemProxy */;
+		};
+		AC3F3B0C2DACA789007D954D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC3F3AF12DACA787007D954D /* RoadkillLogger */;
+			targetProxy = AC3F3B0B2DACA789007D954D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC3F3B122DACA789007D954D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = L5DLST362C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC3F3B132DACA789007D954D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = L5DLST362C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AC3F3B152DACA789007D954D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RoadkillLogger/RoadkillLogger.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L5DLST362C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoadkillLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AC3F3B162DACA789007D954D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RoadkillLogger/RoadkillLogger.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L5DLST362C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoadkillLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AC3F3B182DACA789007D954D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L5DLST362C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoadkillLoggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoadkillLogger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RoadkillLogger";
+			};
+			name = Debug;
+		};
+		AC3F3B192DACA789007D954D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L5DLST362C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoadkillLoggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoadkillLogger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RoadkillLogger";
+			};
+			name = Release;
+		};
+		AC3F3B1B2DACA789007D954D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L5DLST362C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoadkillLoggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RoadkillLogger;
+			};
+			name = Debug;
+		};
+		AC3F3B1C2DACA789007D954D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L5DLST362C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoadkillLoggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RoadkillLogger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC3F3AED2DACA787007D954D /* Build configuration list for PBXProject "RoadkillLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3F3B122DACA789007D954D /* Debug */,
+				AC3F3B132DACA789007D954D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3F3B142DACA789007D954D /* Build configuration list for PBXNativeTarget "RoadkillLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3F3B152DACA789007D954D /* Debug */,
+				AC3F3B162DACA789007D954D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3F3B172DACA789007D954D /* Build configuration list for PBXNativeTarget "RoadkillLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3F3B182DACA789007D954D /* Debug */,
+				AC3F3B192DACA789007D954D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3F3B1A2DACA789007D954D /* Build configuration list for PBXNativeTarget "RoadkillLoggerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3F3B1B2DACA789007D954D /* Debug */,
+				AC3F3B1C2DACA789007D954D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC3F3AEA2DACA787007D954D /* Project object */;
+}
